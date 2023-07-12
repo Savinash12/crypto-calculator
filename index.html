@@ -40,13 +40,22 @@
           <div class="container">
             <p>Choose currency</p>
             <div class="list_items">
-              <div class="modify">USD</div>
-              <div class="modify">EUR</div>
-              <div class="modify">AUD</div>
-              <div class="modify">INR</div>
-              <div class="modify">
-                Other currencies
-                <img src="/logo/akar-icons_circle-chevron-down.png" alt="" />
+              <div class="modify responsive">USD</div>
+              <div class="modify responsive">EUR</div>
+              <div class="modify responsive">AUD</div>
+              <div class="modify responsive">INR</div>
+              <div class="modify search_box">
+                <div class="other_currency" id="other_cur">
+                  Other currencies
+                  <img src="/logo/akar-icons_circle-chevron-down.png" alt="" />
+                </div>
+                <div class="search_currency" id="search_cur">
+                  <input
+                    id="input_content"
+                    type="text"
+                    placeholder="Search currency"
+                  />
+                </div>
               </div>
             </div>
             <hr />
@@ -96,42 +105,51 @@
                 </div>
                 <span class="nameit">$2324</span>
               </div>
-              <div class="search">
-                Other cryptos
-                <img src="/logo/akar-icons_circle-chevron-down.png" alt="" />
+              <div class="search search_box">
+                <div class="" id="currency">
+                  Other cryptos
+                  <img src="/logo/akar-icons_circle-chevron-down.png" alt="" />
+                </div>
+                <div class="search_currency" id="search_c">
+                  <input
+                    id="input_cont"
+                    type="text"
+                    placeholder="Search crypto"
+                  />
+                </div>
               </div>
             </div>
             <hr />
             <div class="price_listing">
-              <div class="item1">
+              <div class="item1 res_width">
                 <h5>Investment</h5>
                 <div class="elements">
                   <span class="mid">$</span>
                   <input type="number" value="0" />
                 </div>
               </div>
-              <div class="item2">
+              <div class="item2 res_width">
                 <h5>Intial Crypto Price</h5>
                 <div class="elements">
                   <span class="mid">$</span>
                   <input type="number" value="0" />
                 </div>
               </div>
-              <div class="item3">
+              <div class="item3 res_width">
                 <h5>Selling Crypto Price</h5>
                 <div class="elements">
                   <span class="mid">$</span>
                   <input type="number" value="0" />
                 </div>
               </div>
-              <div class="item4">
+              <div class="item4 res_width">
                 <h5>Investment Fee</h5>
                 <div class="elements">
                   <span class="mid">$</span>
                   <input type="number" value="0" />
                 </div>
               </div>
-              <div class="item5">
+              <div class="item5 res_width">
                 <h5>Exit Fee</h5>
                 <div class="elements">
                   <span class="mid">$</span>
